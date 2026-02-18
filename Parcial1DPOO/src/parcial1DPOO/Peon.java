@@ -10,7 +10,7 @@ public class Peon extends Ficha_ajedrez {
     }
 
     @Override
-    public List<Posicion> casillasOcupables(Posicion origen, Tablero tablero) {
+    public List<Posicion> casillaUsada(Posicion origen, Tablero tablero) {
         List<Posicion> movimientos = new ArrayList<>();
 
         int fila = origen.getFila();
