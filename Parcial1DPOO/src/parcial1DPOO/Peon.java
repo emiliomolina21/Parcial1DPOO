@@ -8,6 +8,7 @@ public class Peon extends Ficha_ajedrez {
     public Peon() {
         super("Peon");
     }
+    
 
     @Override
     public List<Posicion> casillaUsada(Posicion origen, Tablero tablero) {
